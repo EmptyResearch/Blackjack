@@ -17,7 +17,7 @@ int main(){
   cout << "\nEnter your bet: ";
   cin >> bet;
   }
-  while (bet > http://cpp.sh/#money);
+  while (bet > money);
   yourScore = 0;
   comScore = 0;
   while (comScore <= 21 && yourScore <= 21)  {

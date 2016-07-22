@@ -78,7 +78,7 @@ int main(){
       money -= bet;
     }
     if(yourScore > comScore){
-      cout << "\nYou win " << bet << " coins by point";
+      cout << "\nYou win " << bet << " coins by point!";
       money += bet;
     }
     if(yourScore == comScore){
@@ -103,19 +103,19 @@ int main(){
   }
       }
       if(yourScore > 21){
-        cout << "You're busted! You lose " << bet << " coins.";    
+        cout << "\nYou're busted! You lose " << bet << " coins.";    
       }      
       else{
     if(comScore > yourScore){
-      cout << "The computer wins by more points, and you lose " << bet << " coins.";
+      cout << "\nThe computer wins by more points, and you lose " << bet << " coins.";
       money -= bet;
     }
     if(yourScore > comScore){
-      cout << "You win " << bet << " coins by point";
+      cout << "\nYou win " << bet << " coins by point!";
       money += bet;
     }
     if(yourScore == comScore){
-      cout << "It's a tie!";
+      cout << "\nIt's a tie!";
     }
   }
       

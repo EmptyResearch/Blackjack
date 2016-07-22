@@ -123,7 +123,7 @@ int main(){
   
   std::cout << "\nPlay Game? (yes/no): ";
   std::cin >> output;  
-  }
+}
   
   
   

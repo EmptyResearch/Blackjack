@@ -16,7 +16,7 @@ int main(){
   cout << "\n\nYour Score: " << yourScore << "\nComputer Score: " << comScore << "\nYour Cash: " << money;
   cout << "\nEnter your bet: ";
   cin >> bet;
-  }
+   }
   while (bet > money);
   yourScore = 0;
   comScore = 0;
